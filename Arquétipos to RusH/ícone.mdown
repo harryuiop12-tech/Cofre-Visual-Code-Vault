@@ -1,0 +1,24 @@
+# Arquétipos `to RusH`
+
+---
+## *"Ícone"*
+> 	
+```
+#### Um ícone representa algo por semelhança.
+Você olha para ele e percebe uma aparência parecida com o objeto representado.
+#### Exemplos:
++ Uma fotografia de um gato 🐱
++ Um desenho de um coração ❤️ representando um coração anatômico (mesmo que estilizado)
++ O bonequinho de banheiro 🚹🚺
++ Um mapa
+
+A lógica é:
+
+"Parece com aquilo que representa."
+```
+
+---
+Conforme os arquétipos forem sendo construidos nós decidirem seus ícones. 
+
+---
+### ícone		---

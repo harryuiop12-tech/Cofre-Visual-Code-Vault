@@ -1,0 +1,171 @@
+{
+  "protocol_name": "<PROTOCOL_NAME>",
+  "protocol_type": "<PROTOCOL_TYPE>",
+  "version": "<VERSION>",
+
+  "purpose": {
+    "primary": "<PRIMARY_OBJECTIVE>",
+    "secondary": "<SECONDARY_OBJECTIVE>",
+    "non_goals": [
+      "<NON_GOAL_01>",
+      "<NON_GOAL_02>",
+      "<NON_GOAL_03>"
+    ]
+  },
+
+  "core_principle": {
+    "description": "<CORE_PRINCIPLE_DESCRIPTION>",
+    "rule": "<CORE_RULE>",
+    "importance": "<IMPORTANCE_LEVEL>"
+  },
+
+  "execution_model": {
+    "logical_structure": "<LOGICAL_STRUCTURE>",
+    "operational_structure": "<OPERATIONAL_STRUCTURE>",
+    "explanation": {
+      "logical": "<LOGICAL_EXPLANATION>",
+      "operational": "<OPERATIONAL_EXPLANATION>"
+    }
+  },
+
+  "mental_model": {
+    "incorrect": {
+      "type": "<INCORRECT_MODEL_TYPE>",
+      "representation": "<INCORRECT_MODEL_EXAMPLE>"
+    },
+    "correct": {
+      "type": "<CORRECT_MODEL_TYPE>",
+      "representation": "<CORRECT_MODEL_EXAMPLE>"
+    }
+  },
+
+  "unit": {
+    "name": "<UNIT_NAME>",
+    "definition": "<UNIT_DEFINITION>",
+    "requirements": [
+      "<REQUIREMENT_01>",
+      "<REQUIREMENT_02>",
+      "<REQUIREMENT_03>"
+    ]
+  },
+
+  "quantity": {
+    "default": "<DEFAULT_QUANTITY>",
+    "flexible": "<TRUE_OR_FALSE>",
+    "minimum": "<MINIMUM_QUANTITY>",
+    "maximum": "<MAXIMUM_QUANTITY>",
+    "notes": [
+      "<NOTE_01>",
+      "<NOTE_02>"
+    ]
+  },
+
+  "progression_system": {
+    "enabled": "<TRUE_OR_FALSE>",
+    "purpose": "<PROGRESSION_PURPOSE>",
+    "examples": [
+      "<STAGE_01>",
+      "<STAGE_02>",
+      "<STAGE_03>"
+    ],
+    "meaning": {
+      "default": "<DEFAULT_MEANING>",
+      "important": "<IMPORTANT_CLARIFICATION>"
+    }
+  },
+
+  "signal_system": {
+    "enabled": "<TRUE_OR_FALSE>",
+    "origin": "<SIGNAL_ORIGIN>",
+    "purpose": "<SIGNAL_PURPOSE>",
+    "nature": "<SIGNAL_NATURE>",
+    "critical_rule": "<CRITICAL_SIGNAL_RULE>"
+  },
+
+  "signals": {
+    "<SIGNAL_NAME_01>": {
+      "base_meaning": "<BASE_MEANING>"
+    },
+    "<SIGNAL_NAME_02>": {
+      "base_meaning": "<BASE_MEANING>"
+    },
+    "<SIGNAL_NAME_03>": {
+      "base_meaning": "<BASE_MEANING>"
+    }
+  },
+
+  "signal_rules": {
+    "interpretative": "<TRUE_OR_FALSE>",
+    "contextual": "<TRUE_OR_FALSE>",
+    "subjective": "<TRUE_OR_FALSE>",
+    "contradictions_allowed": "<TRUE_OR_FALSE>",
+    "contradiction_explanation": "<CONTRADICTION_EXPLANATION>"
+  },
+
+  "analysis_philosophy": {
+    "orientation": "<ORIENTATION>",
+    "stance": "<STANCE>",
+    "goal": "<GOAL>",
+    "additional_notes": [
+      "<NOTE_01>",
+      "<NOTE_02>"
+    ]
+  },
+
+  "comparison_logic": {
+    "question_01": "<QUESTION_01>",
+    "question_02": "<QUESTION_02>",
+    "question_03": "<QUESTION_03>",
+    "question_04": "<QUESTION_04>",
+    "question_05": "<QUESTION_05>"
+  },
+
+  "template_philosophy": {
+    "mandatory_completion": "<TRUE_OR_FALSE>",
+    "empty_fields_allowed": "<TRUE_OR_FALSE>",
+    "acceptable_fillers": [
+      "<FILLER_01>",
+      "<FILLER_02>",
+      "<FILLER_03>"
+    ],
+    "reason": "<REASON>"
+  },
+
+  "meta_prompts": {
+    "allowed_between_units": "<TRUE_OR_FALSE>",
+    "examples": [
+      "<META_PROMPT_01>",
+      "<META_PROMPT_02>",
+      "<META_PROMPT_03>"
+    ],
+    "restriction": "<RESTRICTION>"
+  },
+
+  "workflow": {
+    "step_01": "<STEP_01>",
+    "step_02": "<STEP_02>",
+    "step_03": "<STEP_03>",
+    "step_04": "<STEP_04>",
+    "step_05": "<STEP_05>"
+  },
+
+  "example_use_case": {
+    "problem": "<EXAMPLE_PROBLEM>",
+    "units": [
+      "<UNIT_EXAMPLE_01>",
+      "<UNIT_EXAMPLE_02>",
+      "<UNIT_EXAMPLE_03>"
+    ],
+    "objective": "<EXAMPLE_OBJECTIVE>"
+  },
+
+  "success_condition": {
+    "winner_required": "<TRUE_OR_FALSE>",
+    "objective": "<SUCCESS_OBJECTIVE>",
+    "ideal_outcome": "<IDEAL_OUTCOME>"
+  },
+
+  "summary": {
+    "one_sentence": "<ONE_SENTENCE_SUMMARY>"
+  }
+}

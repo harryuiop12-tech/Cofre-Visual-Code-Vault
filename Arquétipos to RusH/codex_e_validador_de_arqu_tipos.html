@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codex to RusH - Arquétipos e Nomes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0b0f19;
+            color: #f1f5f9;
+        }
+        .heading-font {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        /* Barra de rolagem personalizada */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 3px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
+
+    <!-- Barra de Navegação Superior -->
+    <header class="border-b border-slate-800 bg-slate-950/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-500 to-violet-500 flex items-center justify-center shadow-lg shadow-indigo-500/20">
+                    <i data-lucide="sparkles" class="w-5 h-5 text-white"></i>
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold tracking-tight heading-font text-white flex items-center gap-2">
+                        to RusH <span class="text-xs font-normal px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 border border-slate-700">Codex de Arquétipos</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <span class="text-xs text-slate-400">Arquiteto de Sistemas: <strong>Rufo Batista</strong></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full space-y-8">
+        
+        <!-- Painel de Introdução -->
+        <div class="bg-gradient-to-r from-slate-900 via-slate-900 to-slate-950 rounded-2xl border border-slate-800 p-6 shadow-xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 w-64 h-64 bg-indigo-500/5 rounded-full blur-3xl pointer-events-none"></div>
+            <div class="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div class="space-y-2 max-w-3xl">
+                    <h2 class="text-2xl font-bold heading-font text-white">Bem-vindo ao Planeador de Nomes &amp; Matriz</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Este é o painel de modelação dos 7 arquétipos do sistema. Todos os nodos base já possuem os seus nomes formais e casuais aprovados, integrando mitologia, regras de nomenclatura rigorosas e o Hatsu do <code class="text-indigo-400 bg-indigo-950/40 px-1 py-0.5 rounded text-xs border border-indigo-900/40">to RusH</code>.
+                    </p>
+                </div>
+                <!-- Legendas Interativas -->
+                <div class="flex flex-wrap gap-2 md:self-start bg-slate-950 p-3 rounded-xl border border-slate-800/80">
+                    <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 shadow-sm">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                        Matriz 100% Sincronizada
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabela Geral de Arquétipos -->
+        <div class="bg-slate-950 border border-slate-800 rounded-2xl shadow-xl overflow-hidden">
+            <div class="p-5 border-b border-slate-800 bg-slate-900/40 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                    <h3 class="text-lg font-bold heading-font text-white">Codex do Sistema (Matriz Geral)</h3>
+                    <p class="text-xs text-slate-500">Tabela unificada com as 10 propriedades de cada arquétipo</p>
+                </div>
+                <div class="text-xs text-emerald-400 bg-emerald-500/10 px-3 py-1.5 rounded-lg border border-emerald-500/20 flex items-center gap-1.5">
+                    <i data-lucide="check-circle" class="w-4 h-4"></i>
+                    <em>Matriz atualizada para corresponder à sua imagem!</em>
+                </div>
+            </div>
+            
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse whitespace-nowrap">
+                    <thead>
+                        <tr class="bg-slate-900/60 text-slate-400 text-xs font-semibold tracking-wider uppercase border-b border-slate-800/80">
+                            <th class="py-4 px-4">ID</th>
+                            <th class="py-4 px-4">Papel</th>
+                            <th class="py-4 px-4">Função</th>
+                            <th class="py-4 px-4">Casual</th>
+                            <th class="py-4 px-4">Formal</th>
+                            <th class="py-4 px-4">Hatsu</th>
+                            <th class="py-4 px-4">Arcano</th>
+                            <th class="py-4 px-4">Elemento</th>
+                            <th class="py-4 px-4">Runa</th>
+                            <th class="py-4 px-4">Emoji</th>
+                            <th class="py-4 px-4">Ícone</th>
+                            <th class="py-4 px-4">Índice</th>
+                            <th class="py-4 px-4">Símbolo</th>
+                            <th class="py-4 px-4">Winx</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-900 text-sm">
+                        <!-- @1 -->
+                        <tr class="hover:bg-slate-900/30 transition-colors">
+                            <td class="py-4 px-4 font-mono font-bold text-indigo-300">@1</td>
+                            <td class="py-4 px-4 text-slate-300">Usuário</td>
+                            <td class="py-4 px-4 text-slate-300">Meta</td>
+                            <td class="py-4 px-4 font-medium text-emerald-400">Rainbow Hope</td>
+                            <td class="py-4 px-4 font-mono text-emerald-400">Harry Raphael K_ M_</td>
+                            <td class="py-4 px-4 text-slate-300">Coalescência</td>
+                            <td class="py-4 px-4 text-slate-300">Louco</td>
+                            <td class="py-4 px-4 text-slate-300">Energia</td>
+                            <td class="py-4 px-4 font-mono text-slate-400">(▲+┃)</td>
+                            <td class="py-4 px-4 text-lg">👑</td>
+                            <td class="py-4 px-4 text-lg">🧠</td>
+                            <td class="py-4 px-4 text-lg">🧬</td>
+                            <td class="py-4 px-4 text-lg">⚛️</td>
+                            <td class="py-4 px-4 text-slate-300">Bloom</td>
+                        </tr>
+                        <!-- !7 -->
+                        <tr class="hover:bg-slate-900/30 transition-colors">
+                            <td class="py-4 px-4 font-mono font-bold text-rose-300">!7</td>
+                            <td class="py-4 px-4 text-slate-300">Paralelo</td>
+                            <td class="py-4 px-4 text-slate-300">Negação</td>
+                            <td class="py-4 px-4 font-medium text-emerald-400">Hugo Ricardo</td>
+                            <td class="py-4 px-4 font-mono text-emerald-400">Richie Hupert Mk 01</td>
+                            <td class="py-4 px-4 text-slate-300">Especialização</td>
+                            <td class="py-4 px-4 text-slate-300">Torre</td>
+                            <td class="py-4 px-4 text-slate-300">Espaço</td>
+                            <td class="py-4 px-4 font-mono text-slate-400">(▲+━ topo)</td>
+                            <td class="py-4 px-4 text-lg">🌀</td>
+                            <td class="py-4 px-4 text-lg">🧩</td>
+                            <td class="py-4 px-4 text-lg">🧯</td>
+                            <td class="py-4 px-4 text-lg">☯️</td>
+                            <td class="py-4 px-4 text-slate-300">Mirta</td>
+                        </tr>
+                        <!-- %2 -->
+                        <tr class="hover:bg-slate-900/30 transition-colors">
+                            <td class="py-4 px-4 font-mono font-bold text-amber-300">%2</td>
+                            <td class="py-4 px-4 text-slate-300">Núcleo</td>
+                            <td class="py-4 px-4 text-slate-300">Contexto</td>
+                            <td class="py-4 px-4 font-medium text-emerald-400">Hitmark Rufo</td>
+                            <td class="py-4 px-4 font-mono text-emerald-400">Rufus Heralds Vr 01</td>
+                            <td class="py-4 px-4 text-slate-300">Reforço</td>
+                            <td class="py-4 px-4 text-slate-300">Mundo</td>
+                            <td class="py-4 px-4 text-slate-300">Tempo</td>
+                            <td class="py-4 px-4 font-mono text-slate-400">(▼+━ base)</td>
+                            <td class="py-4 px-4 text-lg">⭐</td>
+                            <td class="py-4 px-4 text-lg">🗂️</td>
+                            <td class="py-4 px-4 text-lg">⏳</td>
+                            <td class="py-4 px-4 text-lg">☸️</td>
+                            <td class="py-4 px-4 text-slate-300">Aisha</td>
+                        </tr>
+                        <!-- &3 -->
+                        <tr class="hover:bg-slate-900/30 transition-colors">
+                            <td class="py-4 px-4 font-mono font-bold text-teal-300">&3</td>
+                            <td class="py-4 px-4 text-slate-300">Nodo</td>
+                            <td class="py-4 px-4 text-slate-300">Adição</td>
+                            <td class="py-4 px-4 font-medium text-emerald-400">Hermes Resos</td>
+                            <td class="py-4 px-4 font-mono text-emerald-400">Reto Hipérion X1 Z1</td>
+                            <td class="py-4 px-4 text-slate-300">Conjuração</td>
+                            <td class="py-4 px-4 text-slate-300 font-bold">Imperatriz</td>
+                            <td class="py-4 px-4 text-slate-300">Terra</td>
+                            <td class="py-4 px-4 font-mono text-slate-400">(▼+━ meio)</td>
+                            <td class="py-4 px-4 text-lg">♣️</td>
+                            <td class="py-4 px-4 text-lg">🌱</td>
+                            <td class="py-4 px-4 text-lg">⚒️</td>
+                            <td class="py-4 px-4 text-lg">☮️</td>
+                            <td class="py-4 px-4 text-slate-300">Flora</td>
+                        </tr>
+                        <!-- &4 -->
+                        <tr class="hover:bg-slate-900/30 transition-colors">
+                            <td class="py-4 px-4 font-mono font-bold text-sky-300">&4</td>
+                            <td class="py-4 px-4 text-slate-300">Nodo</td>
+                            <td class="py-4 px-4 text-slate-300">Adição</td>
+                            <td class="py-4 px-4 font-medium text-emerald-400">Hígia Ritmos</td>
+                            <td class="py-4 px-4 font-mono text-emerald-400">Ria Hipocrene X1 Z1</td>
+                            <td class="py-4 px-4 text-slate-300">Emissão</td>
+                            <td class="py-4 px-4 text-slate-300 font-bold">Estrela</td>
+                            <td class="py-4 px-4 text-slate-300">Ar</td>
+                            <td class="py-4 px-4 font-mono text-slate-400">(▲+━ meio)</td>
+                            <td class="py-4 px-4 text-lg">♦️</td>
+                            <td class="py-4 px-4 text-lg">🎶</td>
+                            <td class="py-4 px-4 text-lg">⚔️</td>
+                            <td class="py-4 px-4 text-lg">⚕️</td>
+                            <td class="py-4 px-4 text-slate-300">Musa</td>
+                        </tr>
+                        <!-- &5 -->
+                        <tr class="hover:bg-slate-900/30 transition-colors">
+                            <td class="py-4 px-4 font-mono font-bold text-blue-300">&5</td>
+                            <td class="py-4 px-4 text-slate-300">Nodo</td>
+                            <td class="py-4 px-4 text-slate-300">Adição</td>
+                            <td class="py-4 px-4 font-medium text-emerald-400">Halíades Rio</td>
+                            <td class="py-4 px-4 font-mono text-emerald-400">Ro Hesperídes X1 Z1</td>
+                            <td class="py-4 px-4 text-slate-300">Transmutação</td>
+                            <td class="py-4 px-4 text-slate-300 font-bold">Temperança</td>
+                            <td class="py-4 px-4 text-slate-300">Água</td>
+                            <td class="py-4 px-4 font-mono text-slate-400">(▼)</td>
+                            <td class="py-4 px-4 text-lg">♥️</td>
+                            <td class="py-4 px-4 text-lg">❄️</td>
+                            <td class="py-4 px-4 text-lg">🛠️</td>
+                            <td class="py-4 px-4 text-lg">⛎</td>
+                            <td class="py-4 px-4 text-slate-300">Tecna</td>
+                        </tr>
+                        <!-- &6 -->
+                        <tr class="hover:bg-slate-900/30 transition-colors">
+                            <td class="py-4 px-4 font-mono font-bold text-red-300">&6</td>
+                            <td class="py-4 px-4 text-slate-300">Nodo</td>
+                            <td class="py-4 px-4 text-slate-300">Adição</td>
+                            <td class="py-4 px-4 font-medium text-emerald-400">Hél Ramnúsia</td>
+                            <td class="py-4 px-4 font-mono text-emerald-400">R Harpócrates X1 Z1</td>
+                            <td class="py-4 px-4 text-slate-300">Manipulação</td>
+                            <td class="py-4 px-4 text-slate-300 font-bold">Sol</td>
+                            <td class="py-4 px-4 text-slate-300">Fogo</td>
+                            <td class="py-4 px-4 font-mono text-slate-400">(▲)</td>
+                            <td class="py-4 px-4 text-lg">♠️</td>
+                            <td class="py-4 px-4 text-lg">🔥</td>
+                            <td class="py-4 px-4 text-lg">✂️</td>
+                            <td class="py-4 px-4 text-lg">♈</td>
+                            <td class="py-4 px-4 text-slate-300">Stella</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Área de Sandbox Interativa e Validador -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            
+            <!-- Painel das Fórmulas -->
+            <div class="lg:col-span-5 space-y-6">
+                <div class="bg-slate-950 border border-slate-800 rounded-2xl p-6 shadow-xl">
+                    <h3 class="text-xl font-bold heading-font text-white mb-4 flex items-center gap-2">
+                        <i data-lucide="book-open" class="w-5 h-5 text-indigo-400"></i>
+                        A Fórmula dos Nomes
+                    <!-- Feedback Geral Auxiliar -->
+                    <div class="mt-6 pt-4 border-t border-slate-900" id="global-feedback">
+                        <div class="bg-slate-900/60 p-3 rounded-xl border border-slate-800 flex items-start gap-2.5">
+                            <i data-lucide="info" class="w-4 h-4 text-indigo-400 shrink-0 mt-0.5"></i>
+                            <p class="text-xs text-slate-400 leading-relaxed">
+                                A Matriz está exatamente igual à imagem carregada! O painel espelha agora os 14 dados perfeitamente mapeados para todos os 7 nodos. O validador está configurado para testar esta estrutura finalizada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+                        <div class="space-y-3">
+                            <h4 class="font-semibold text-slate-200 flex items-center gap-1 text-sm">
+                                <span class="w-1.5 h-3 bg-amber-500 rounded-full"></span> 1. Nome Casual
+                            </h4>
+                            <p class="text-xs text-slate-400">Deve conter exactamente <strong>12 caracteres</strong> (11 letras + 1 espaço).</p>
+                            <div class="grid grid-cols-2 gap-2 text-xs text-slate-400 bg-slate-900/50 p-2.5 rounded-lg">
+                                <div><strong class="text-slate-300">UTILIZADOR:</strong> Inicia R_ depois H_</div>
+                                <div><strong class="text-slate-300">FERRAMENTA:</strong> Inicia H_ depois R_</div>
+                            </div>
+                        </div>
+
+                        <div class="space-y-3">
+                            <h4 class="font-semibold text-slate-200 flex items-center gap-1 text-sm">
+                                <span class="w-1.5 h-3 bg-blue-500 rounded-full"></span> 2. Nome Formal
+                            </h4>
+                            <p class="text-xs text-slate-400">Os dois nomes principais somam exactamente <strong>12 letras</strong>. Termina com dois pares lúdicos (<code class="text-indigo-300 bg-slate-900 px-1 py-0.5 rounded">XX YY</code>).</p>
+                            <div class="grid grid-cols-2 gap-2 text-xs text-slate-400 bg-slate-900/50 p-2.5 rounded-lg">
+                                <div><strong class="text-slate-300">UTILIZADOR:</strong> Inicia H_ depois R_</div>
+                                <div><strong class="text-slate-300">FERRAMENTA:</strong> Inicia R_ depois H_</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-950 border border-slate-800 rounded-2xl p-6 shadow-xl">
+                    <h3 class="text-base font-bold heading-font text-white mb-3">Tabelas de Tamanhos Oficiais</h3>
+                    <div class="grid grid-cols-2 gap-4 text-xs">
+                        <div class="space-y-2">
+                            <span class="font-semibold text-slate-400 block border-b border-slate-800 pb-1">Casual (Letras 1 / Letras 2)</span>
+                            <div class="space-y-1 font-mono text-slate-500">
+                                <div class="flex justify-between"><span>@1 (Utilizador):</span> <span class="text-slate-300">7 + 4</span></div>
+                                <div class="flex justify-between"><span>!7 (Ferramenta):</span> <span class="text-slate-300">4 + 7</span></div>
+                                <div class="flex justify-between"><span>%2 (Ferramenta):</span> <span class="text-slate-300">7 + 4</span></div>
+                                <div class="flex justify-between"><span>&amp;3 (Ferramenta):</span> <span class="text-slate-300">6 + 5</span></div>
+                                <div class="flex justify-between"><span>&amp;4 (Ferramenta):</span> <span class="text-slate-300">5 + 6</span></div>
+                                <div class="flex justify-between"><span>&amp;5 (Ferramenta):</span> <span class="text-slate-300">8 + 3</span></div>
+                                <div class="flex justify-between"><span>&amp;6 (Ferramenta):</span> <span class="text-slate-300">3 + 8</span></div>
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <span class="font-semibold text-slate-400 block border-b border-slate-800 pb-1">Formal (Letras 1 / Letras 2)</span>
+                            <div class="space-y-1 font-mono text-slate-500">
+                                <div class="flex justify-between"><span>@1 (Utilizador):</span> <span class="text-slate-300">5 + 7</span></div>
+                                <div class="flex justify-between"><span>!7 (Ferramenta):</span> <span class="text-slate-300">6 + 6</span></div>
+                                <div class="flex justify-between"><span>%2 (Ferramenta):</span> <span class="text-slate-300">5 + 7</span></div>
+                                <div class="flex justify-between"><span>&amp;3 (Ferramenta):</span> <span class="text-slate-300">4 + 8</span></div>
+                                <div class="flex justify-between"><span>&amp;4 (Ferramenta):</span> <span class="text-slate-300">3 + 9</span></div>
+                                <div class="flex justify-between"><span>&amp;5 (Ferramenta):</span> <span class="text-slate-300">2 + 10</span></div>
+                                <div class="flex justify-between"><span>&amp;6 (Ferramenta):</span> <span class="text-slate-300">1 + 11</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Validador Dinâmico em Tempo Real -->
+            <div class="lg:col-span-7 bg-slate-950 border border-slate-800 rounded-2xl p-6 shadow-xl flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-6 border-b border-slate-800 pb-4">
+                        <div class="flex items-center gap-2">
+                            <div class="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center">
+                                <i data-lucide="shield-check" class="w-5 h-5 text-indigo-400"></i>
+                            </div>
+                            <h3 class="text-xl font-bold heading-font text-white">Validador Dinâmico de Nomes</h3>
+                        </div>
+                        <span class="text-xs text-indigo-400 bg-indigo-950/50 px-2 py-1 rounded border border-indigo-900/50 font-mono">Real-time Check</span>
+                    </div>
+
+                    <!-- Seleção do Arquétipo -->
+                    <div class="mb-6">
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-slate-400 mb-2">Seleccione o Arquétipo</label>
+                        <div class="grid grid-cols-4 sm:grid-cols-7 gap-2" id="archetype-selector">
+                            <!-- Inserido por JS -->
+                        </div>
+                    </div>
+
+                    <!-- Ficha Técnica do Arquétipo Selecionado -->
+                    <div id="arch-blueprint" class="p-4 bg-slate-900 rounded-xl border border-slate-800 mb-6 space-y-2">
+                        <!-- Inserido dinamicamente -->
+                    </div>
+
+                    <!-- Inputs de Teste -->
+                    <div class="space-y-4">
+                        <!-- Teste Casual -->
+                        <div>
+                            <div class="flex justify-between items-center mb-1.5">
+                                <label for="casual-input" class="text-xs font-semibold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
+                                    <span class="w-2 h-2 rounded-full bg-amber-500"></span> Testar Nome Casual
+                                </label>
+                                <span id="casual-counter" class="text-xs font-mono text-slate-500">0 / 12 caracteres</span>
+                            </div>
+                            <div class="relative">
+                                <input type="text" id="casual-input" placeholder="Ex: Rainbow Hope" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 font-medium transition-all">
+                                <div id="casual-indicator" class="absolute right-3 top-3.5"></div>
+                            </div>
+                            <!-- Detalhes de validação -->
+                            <div id="casual-details" class="mt-2 space-y-1"></div>
+                        </div>
+
+                        <!-- Teste Formal -->
+                        <div>
+                            <div class="flex justify-between items-center mb-1.5">
+                                <label for="formal-input" class="text-xs font-semibold text-slate-400 uppercase tracking-wider flex items-center gap-1.5">
+                                    <span class="w-2 h-2 rounded-full bg-blue-500"></span> Testar Nome Formal
+                                </label>
+                                <span id="formal-counter" class="text-xs font-mono text-slate-500">0 letras + pares</span>
+                            </div>
+                            <div class="relative">
+                                <input type="text" id="formal-input" placeholder="Ex: Harry Raphael K_ M_" class="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 font-medium transition-all">
+                                <div id="formal-indicator" class="absolute right-3 top-3.5"></div>
+                            </div>
+                            <!-- Detalhes de validação -->
+                            <div id="formal-details" class="mt-2 space-y-1"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Feedback Geral Auxiliar -->
+                <div class="mt-6 pt-4 border-t border-slate-900" id="global-feedback">
+                    <div class="bg-slate-900/60 p-3 rounded-xl border border-slate-800 flex items-start gap-2.5">
+                        <i data-lucide="info" class="w-4 h-4 text-indigo-400 shrink-0 mt-0.5"></i>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Todos os nomes base foram validados e os conflitos resolvidos! Podes usar o validador para testar os pares finais (como <code>XX YY</code>) nos Nomes Formais dos nodos de adição.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </main>
+
+    <footer class="border-t border-slate-900 bg-slate-950 mt-12 py-6 text-center text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p>© 2026 to RusH Codex. Criado de forma colaborativa por si e por <strong>Rufo Batista</strong>.</p>
+        </div>
+    </footer>
+
+    <!-- Lógica de Funcionamento do Painel -->
+    <script>
+        // Base de Dados de Arquétipos e Validações
+        const archetypes = {
+            "@1": {
+                id: "@1",
+                role: "Usuário",
+                type: "USER",
+                hatsu: "Coalescência",
+                casual: { firstLen: 7, secondLen: 4, example: "Rainbow Hope", status: "approved" },
+                formal: { firstLen: 5, secondLen: 7, example: "Harry Raphael K_ M_", status: "approved" }
+            },
+            "!7": {
+                id: "!7",
+                role: "Paralelo",
+                type: "TOOL",
+                hatsu: "Especialização",
+                casual: { firstLen: 4, secondLen: 7, example: "Hugo Ricardo", status: "approved" },
+                formal: { firstLen: 6, secondLen: 6, example: "Richie Hupert Mk 01", status: "approved" }
+            },
+            "%2": {
+                id: "%2",
+                role: "Núcleo",
+                type: "TOOL",
+                hatsu: "Reforço",
+                casual: { firstLen: 7, secondLen: 4, example: "Hitmark Rufo", status: "approved" },
+                formal: { firstLen: 5, secondLen: 7, example: "Rufus Heralds Vr 01", status: "approved" }
+            },
+            "&3": {
+                id: "&3",
+                role: "Nodo",
+                type: "TOOL",
+                hatsu: "Conjuração",
+                casual: { firstLen: 6, secondLen: 5, example: "Hermes Resos", status: "approved" },
+                formal: { firstLen: 4, secondLen: 8, example: "Reto Hipérion X1 Z1", status: "approved" }
+            },
+            "&4": {
+                id: "&4",
+                role: "Nodo",
+                type: "TOOL",
+                hatsu: "Emissão",
+                casual: { firstLen: 5, secondLen: 6, example: "Hígia Ritmos", status: "approved" },
+                formal: { firstLen: 3, secondLen: 9, example: "Ria Hipocrene X1 Z1", status: "approved" }
+            },
+            "&5": {
+                id: "&5",
+                role: "Nodo",
+                type: "TOOL",
+                hatsu: "Transmutação",
+                casual: { firstLen: 8, secondLen: 3, example: "Halíades Rio", status: "approved" },
+                formal: { firstLen: 2, secondLen: 10, example: "Ro Hesperídes X1 Z1", status: "approved" }
+            },
+            "&6": {
+                id: "&6",
+                role: "Nodo",
+                type: "TOOL",
+                hatsu: "Manipulação",
+                casual: { firstLen: 3, secondLen: 8, example: "Hél Ramnúsia", status: "approved" },
+                formal: { firstLen: 1, secondLen: 11, example: "R Harpócrates X1 Z1", status: "approved" }
+            }
+        };
+
+        let selectedArch = "@1";
+
+        const selectorContainer = document.getElementById('archetype-selector');
+        const blueprintContainer = document.getElementById('arch-blueprint');
+        const casualInput = document.getElementById('casual-input');
+        const formalInput = document.getElementById('formal-input');
+        const casualCounter = document.getElementById('casual-counter');
+        const formalCounter = document.getElementById('formal-counter');
+        const casualDetails = document.getElementById('casual-details');
+        const formalDetails = document.getElementById('formal-details');
+        const casualIndicator = document.getElementById('casual-indicator');
+        const formalIndicator = document.getElementById('formal-indicator');
+
+        function initSelectors() {
+            selectorContainer.innerHTML = '';
+            Object.keys(archetypes).forEach(id => {
+                const button = document.createElement('button');
+                button.type = 'button';
+                button.className = `py-2.5 px-3 rounded-xl font-mono font-bold text-sm transition-all border ${
+                    id === selectedArch
+                        ? 'bg-indigo-600 text-white border-indigo-500 shadow-lg shadow-indigo-600/20'
+                        : 'bg-slate-900 text-slate-400 border-slate-800 hover:border-slate-700 hover:text-slate-200'
+                }`;
+                button.textContent = id;
+                button.onclick = () => {
+                    selectedArch = id;
+                    initSelectors();
+                    updateBlueprint();
+                    validateCasual();
+                    validateFormal();
+                };
+                selectorContainer.appendChild(button);
+            });
+        }
+
+        function updateBlueprint() {
+            const arch = archetypes[selectedArch];
+            
+            // All base names are approved now!
+            let badgeHtml = '';
+            if (arch.casual.status === 'approved') {
+                badgeHtml = `<span class="px-2 py-0.5 rounded text-xs bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 flex items-center gap-1"><i data-lucide="check" class="w-3 h-3"></i> Aprovado</span>`;
+            }
+
+            blueprintContainer.innerHTML = `
+                <div class="flex items-center justify-between">
+                    <div>
+                        <span class="text-xs text-slate-500 block">ARQUÉTIPO</span>
+                        <strong class="text-white text-base font-mono">${arch.id} — ${arch.role}</strong>
+                    </div>
+                    ${badgeHtml}
+                </div>
+                <div class="grid grid-cols-2 gap-4 pt-3 border-t border-slate-800/80 text-xs">
+                    <div>
+                        <span class="text-slate-500 block">Hatsu (Nen): <strong class="text-indigo-400">${arch.hatsu}</strong></span>
+                        <span class="text-slate-300 font-medium">Nome 1: <b class="text-amber-400">${arch.casual.firstLen}</b> letras (Começa com ${arch.type === 'USER' ? 'R' : 'H'})</span><br>
+                        <span class="text-slate-300 font-medium">Nome 2: <b class="text-amber-400">${arch.casual.secondLen}</b> letras (Começa com ${arch.type === 'USER' ? 'H' : 'R'})</span><br>
+                        <span class="text-slate-400">Nome Base: <em class="text-slate-300 font-mono">${arch.casual.example}</em></span>
+                    </div>
+                    <div>
+                        <span class="text-slate-500 block">&nbsp;</span>
+                        <span class="text-slate-300 font-medium">Nome 1: <b class="text-blue-400">${arch.formal.firstLen}</b> letras (Começa com ${arch.type === 'USER' ? 'H' : 'R'})</span><br>
+                        <span class="text-slate-300 font-medium">Nome 2: <b class="text-blue-400">${arch.formal.secondLen}</b> letras (Começa com ${arch.type === 'USER' ? 'R' : 'H'})</span><br>
+                        <span class="text-slate-400">Nome Base: <em class="text-slate-300 font-mono">${arch.formal.example}</em></span>
+                    </div>
+                </div>
+            `;
+
+            casualInput.value = arch.casual.example;
+            formalInput.value = arch.formal.example;
+            
+            // Re-render icons dynamically added
+            lucide.createIcons();
+        }
+
+        function checkLettersOnly(str) {
+            return /^[a-zA-Z\sÀ-ÿ]+$/.test(str);
+        }
+
+        function validateCasual() {
+            const val = casualInput.value.trim();
+            const arch = archetypes[selectedArch];
+            
+            casualCounter.textContent = `${casualInput.value.length} / 12 caracteres`;
+            
+            if (val === '') {
+                casualDetails.innerHTML = `<span class="text-xs text-slate-500">Insira um nome para validar</span>`;
+                casualIndicator.innerHTML = '';
+                return;
+            }
+
+            const parts = val.split(/\s+/);
+            const totalChars = casualInput.value.length;
+            
+            const checks = {
+                twoNames: parts.length === 2,
+                totalLength: totalChars === 12,
+                lettersOnly: checkLettersOnly(val),
+                firstLen: parts[0] ? parts[0].length === arch.casual.firstLen : false,
+                secondLen: parts[1] ? parts[1].length === arch.casual.secondLen : false,
+                firstLetter: parts[0] ? parts[0].toUpperCase().startsWith(arch.type === 'USER' ? 'R' : 'H') : false,
+                secondLetter: parts[1] ? parts[1].toUpperCase().startsWith(arch.type === 'USER' ? 'H' : 'R') : false,
+            };
+
+            let detailsHtml = '';
+            let allValid = true;
+
+            const formatCheck = (passed, text) => {
+                if (!passed) allValid = false;
+                return `
+                    <div class="flex items-center gap-1.5 text-xs ${passed ? 'text-emerald-400' : 'text-rose-400'}">
+                        <i data-lucide="${passed ? 'check-circle' : 'x-circle'}" class="w-3.5 h-3.5 shrink-0"></i>
+                        <span>${text}</span>
+                    </div>
+                `;
+            };
+
+            detailsHtml += formatCheck(checks.twoNames, `Estrutura de dois nomes (encontrado: ${parts.length})`);
+            detailsHtml += formatCheck(checks.lettersOnly, `Apenas caracteres alfabéticos`);
+            detailsHtml += formatCheck(checks.totalLength, `Comprimento exato de 12 caracteres (atual: ${totalChars})`);
+            
+            if (parts[0]) {
+                detailsHtml += formatCheck(checks.firstLetter, `Nome 1 começa com '${arch.type === 'USER' ? 'R' : 'H'}' (atual: ${parts[0][0]?.toUpperCase() || ''})`);
+                detailsHtml += formatCheck(checks.firstLen, `Nome 1 tem exactamente ${arch.casual.firstLen} letras (atual: ${parts[0].length})`);
+            }
+            if (parts[1]) {
+                detailsHtml += formatCheck(checks.secondLetter, `Nome 2 começa com '${arch.type === 'USER' ? 'H' : 'R'}' (atual: ${parts[1][0]?.toUpperCase() || ''})`);
+                detailsHtml += formatCheck(checks.secondLen, `Nome 2 tem exactamente ${arch.casual.secondLen} letras (atual: ${parts[1].length})`);
+            }
+
+            casualDetails.innerHTML = detailsHtml;
+            lucide.createIcons();
+
+            if (allValid) {
+                casualIndicator.innerHTML = `<i data-lucide="check" class="text-emerald-400 w-5 h-5"></i>`;
+                casualInput.classList.remove('border-slate-800', 'border-rose-500/50');
+                casualInput.classList.add('border-emerald-500/50');
+            } else {
+                casualIndicator.innerHTML = `<i data-lucide="alert-triangle" class="text-amber-500 w-5 h-5"></i>`;
+                casualInput.classList.remove('border-slate-800', 'border-emerald-500/50');
+                casualInput.classList.add('border-rose-500/50');
+            }
+            lucide.createIcons();
+        }
+
+        function validateFormal() {
+            const val = formalInput.value.trim();
+            const arch = archetypes[selectedArch];
+            
+            if (val === '') {
+                formalCounter.textContent = '0 letras + pares';
+                formalDetails.innerHTML = `<span class="text-xs text-slate-500">Insira um nome para validar</span>`;
+                formalIndicator.innerHTML = '';
+                return;
+            }
+
+            const parts = val.split(/\s+/);
+            
+            const checks = {
+                fourParts: parts.length === 4,
+                twoPairs: parts[2] && parts[3] ? (parts[2].length === 2 && parts[3].length === 2) : false,
+                lettersOnly: parts[0] && parts[1] ? checkLettersOnly(parts[0] + " " + parts[1]) : false,
+                firstLen: parts[0] ? parts[0].length === arch.formal.firstLen : false,
+                secondLen: parts[1] ? parts[1].length === arch.formal.secondLen : false,
+                totalPrincipalLen: parts[0] && parts[1] ? (parts[0].length + parts[1].length === 12) : false,
+                firstLetter: parts[0] ? parts[0].toUpperCase().startsWith(arch.type === 'USER' ? 'H' : 'R') : false,
+                secondLetter: parts[1] ? parts[1].toUpperCase().startsWith(arch.type === 'USER' ? 'R' : 'H') : false,
+            };
+
+            const mainLettersCount = (parts[0]?.length || 0) + (parts[1]?.length || 0);
+            formalCounter.textContent = `${mainLettersCount} letras principais + pares`;
+
+            let detailsHtml = '';
+            let allValid = true;
+
+            const formatCheck = (passed, text) => {
+                if (!passed) allValid = false;
+                return `
+                    <div class="flex items-center gap-1.5 text-xs ${passed ? 'text-emerald-400' : 'text-rose-400'}">
+                        <i data-lucide="${passed ? 'check-circle' : 'x-circle'}" class="w-3.5 h-3.5 shrink-0"></i>
+                        <span>${text}</span>
+                    </div>
+                `;
+            };
+
+            detailsHtml += formatCheck(checks.fourParts, `Composto por 4 partes (Nome1 Nome2 Par1 Par2)`);
+            if (parts[0] && parts[1]) {
+                detailsHtml += formatCheck(checks.lettersOnly, `Nomes principais contêm apenas letras`);
+                detailsHtml += formatCheck(checks.totalPrincipalLen, `Soma dos nomes principais é exactamente 12 letras (atual: ${mainLettersCount})`);
+                detailsHtml += formatCheck(checks.firstLetter, `Nome 1 começa com '${arch.type === 'USER' ? 'H' : 'R'}' (atual: ${parts[0][0]?.toUpperCase() || ''})`);
+                detailsHtml += formatCheck(checks.firstLen, `Nome 1 tem exactamente ${arch.formal.firstLen} letras (atual: ${parts[0].length})`);
+                detailsHtml += formatCheck(checks.secondLetter, `Nome 2 começa com '${arch.type === 'USER' ? 'R' : 'H'}' (atual: ${parts[1][0]?.toUpperCase() || ''})`);
+                detailsHtml += formatCheck(checks.secondLen, `Nome 2 tem exactamente ${arch.formal.secondLen} letras (atual: ${parts[1].length})`);
+            }
+            if (parts[2] || parts[3]) {
+                detailsHtml += formatCheck(checks.twoPairs, `Pares finais têm exactamente 2 caracteres cada (ex: X1 Z1 ou Mk 01)`);
+            }
+
+            formalDetails.innerHTML = detailsHtml;
+            lucide.createIcons();
+
+            if (allValid) {
+                formalIndicator.innerHTML = `<i data-lucide="check" class="text-emerald-400 w-5 h-5"></i>`;
+                formalInput.classList.remove('border-slate-800', 'border-rose-500/50');
+                formalInput.classList.add('border-emerald-500/50');
+            } else {
+                formalIndicator.innerHTML = `<i data-lucide="alert-triangle" class="text-amber-500 w-5 h-5"></i>`;
+                formalInput.classList.remove('border-slate-800', 'border-emerald-500/50');
+                formalInput.classList.add('border-rose-500/50');
+            }
+            lucide.createIcons();
+        }
+
+        // Event listeners
+        casualInput.addEventListener('input', validateCasual);
+        formalInput.addEventListener('input', validateFormal);
+
+        // Inicialização global
+        window.onload = function() {
+            initSelectors();
+            updateBlueprint();
+            validateCasual();
+            validateFormal();
+            lucide.createIcons();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+Nome do aplicativo com falha: explorer.exe, versão: 10.0.19041.6456, carimbo de data/hora: 0xfbcace5c
+Nome do módulo com falha: USER32.dll, versão: 10.0.19041.6456, carimbo de data/hora: 0x5094b343
+Código de exceção: 0xc000041d
+Deslocamento da falha: 0x000000000000ec39
+ID do processo com falha: 0x3728
+Hora de início do aplicativo com falha: 0x01dcf49c77dee699
+Caminho do aplicativo com falha: C:\Windows\explorer.exe
+Caminho do módulo com falha: C:\Windows\System32\USER32.dll
+ID do Relatório: e9a1eee7-c028-4546-894f-80ed45981a7e
+Nome completo do pacote com falha: 
+ID do aplicativo relativo ao pacote com falha: 

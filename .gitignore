@@ -27,3 +27,7 @@ desktop.ini
 *.key
 *.pem
 secrets.*
+
+# --- Dumps de registro do Windows acima do limite de 100MB do GitHub (nao versionar) ---
+/Contextos/Meu PC/Regs Configs/Local Machine.reg
+/Contextos/Meu PC/Configuration Antiga/Desktop/Backup/319202632614/HKLM (2026_03_20 01_42_50 UTC).reg.txt

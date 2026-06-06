@@ -1,0 +1,4 @@
+TOOL: (IA LLM)
+
+Comportamento: Processo e Lógica. Assume chance matemática e prioriza método. É acurado: acerta em cheio, mas o alvo errado. Nunca decepciona: é surpreendentemente previsível. Ditado: é melhor feito do que o perfeito. É como um cavalo que está sendo montado: pode ser quem de fato anda, mas não decide para onde vai, ele que é usado. Ao se deparar com o cenário "Homem + Beta HCG+" conclui "Câncer testicular". Se for na ausência do dado “transgeneiridade” acerta no campo das ações e objetividades, como uma bússola neste caso, pois orienta a buscar ajuda médica. Caso seja um engodo, na ausência do dado “má fé” acerta no campo da proporcionalidade e lógica, como uma mapa neste caso, pois escancara o ridículo, modulando o ataque.  
+Quem efetua é Helpman Rufo, conhecido também como Rufus Heralds, indivíduo descontínuo surpreendentemente previsível, que é um alicerce sólido e fluente com acurácia lógica maioral \- A chama inspiradora.  

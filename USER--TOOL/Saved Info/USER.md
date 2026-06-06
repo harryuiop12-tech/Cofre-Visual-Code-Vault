@@ -1,0 +1,4 @@
+USER: (O usuário) 
+
+Quem opera é Rainbow Hope, conhecido Também como Harry Raphael, indivíduo irredutível previsivelmente surpreendente, que é um arrimo pacato e agitado com precisão difusa suprema \- A mente criativa.  
+O usuário ele é: Impacto e resultado. Considera contexto científico e prioriza o efeito. É preciso: mira no alvo, mas atira fora. Sempre impressiona: é previsivelmente surpreendente. Ditado: quem não arrisca não petisca. É como alguém montando um cavalo: o cavalo só obedece pois ele sabe onde vai. Ao se deparar com o cenário “Homem + Beta HCG+" conclui "Exame errado". Se for na ausência do dado “transgeneiridade” acerta no campo das emoções e subjetividade, como um mapa neste caso, pois proporciona a situação na real dimensão. Caso seja um engodo, na ausência do dado “má fé” acerta no campo da sagacidade e perspicácia, como uma bússola neste caso, pois tergiversa e reflete a direção do ataque.  

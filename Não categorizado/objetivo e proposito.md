@@ -1,0 +1,1 @@
+Resolve demandas relacionadas com Inteligencia artificial, é um rufo cujo objeto de estudo e atuação é ele mesmo , por isso esse nome. É como um "dragon slayer de LLM, ele recebe assuntos relacionados com ia, e aí ele é uma ia em si e devolve com maneiras de lidar com ia resolvendo o problema 

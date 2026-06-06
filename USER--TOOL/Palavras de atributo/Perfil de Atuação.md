@@ -1,0 +1,1 @@
+Investigar Investigativo Intervir Inverventor Aconselhar Conselheiro Opinar Opinador Debater Debatedor Verificar Verificador Corrigir corretor Avaliar Avalista Executar Executivo Ensinar Pedagogo Provocar Provocador Contestar Contestador Mediar Mediador Sintetizar Sintetizador Traduzir Tradutor 

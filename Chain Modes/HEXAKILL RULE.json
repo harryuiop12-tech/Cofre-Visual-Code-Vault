@@ -1,0 +1,195 @@
+{
+  "protocol_name": "HEXAKILL",
+  "protocol_type": "Comparative Analytical Protocol",
+  "version": "Conceptual Reconstruction",
+  "purpose": {
+    "primary": "Compare multiple independent approaches to the same problem.",
+    "secondary": "Reveal trade-offs, hidden assumptions, side effects, strengths, weaknesses, and contextual suitability.",
+    "non_goals": [
+      "Determine a universal winner.",
+      "Force consensus.",
+      "Construct a single final answer.",
+      "Debate between approaches.",
+      "Persuasion or advocacy."
+    ]
+  },
+  "core_principle": {
+    "description": "Every Elo derives from the same origin problem but remains independent from every other Elo.",
+    "rule": "No Elo should be generated as a response to another Elo.",
+    "importance": "Critical"
+  },
+  "execution_model": {
+    "logical_structure": "Parallel",
+    "operational_structure": "Sequential",
+    "explanation": {
+      "parallel": "All approaches originate from the same source problem and must remain analytically independent.",
+      "sequential": "Elos are usually exchanged one message at a time."
+    }
+  },
+  "mental_model": {
+    "incorrect": {
+      "type": "Debate",
+      "representation": "A influences B influences C influences D"
+    },
+    "correct": {
+      "type": "Prism",
+      "representation": "Problem -> Elo1, Elo2, Elo3, Elo4, Elo5, Elo6"
+    }
+  },
+  "elo": {
+    "definition": "A single independent analytical branch.",
+    "requirements": [
+      "Must derive from the same original problem.",
+      "Must not depend on conclusions from previous Elos.",
+      "Must be analyzable in isolation.",
+      "Must contribute a distinct perspective, intervention, hypothesis, comparison or exploration."
+    ]
+  },
+  "number_of_elos": {
+    "default": 6,
+    "flexible": true,
+    "notes": [
+      "The number six is the standard format.",
+      "The protocol can be adapted to different quantities when needed.",
+      "The essence of the protocol is parallel comparison, not the number itself."
+    ]
+  },
+  "announcer_system": {
+    "purpose": "Narrative and structural signaling.",
+    "examples": [
+      "First Blood",
+      "Double Kill",
+      "Triple Kill",
+      "Quadra Kill",
+      "Penta Kill",
+      "Hexakill"
+    ],
+    "meaning": {
+      "default": "Indicates progression through the analysis.",
+      "important": "Does NOT imply victory."
+    }
+  },
+  "ping_system": {
+    "origin": "League of Legends communication system",
+    "purpose": "Meta-communication and analytical signaling.",
+    "nature": "Interpretative",
+    "critical_rule": "Ping meanings are not rigidly fixed. Context determines final interpretation.",
+    "allowed": [
+      "Literal interpretation",
+      "Metaphorical interpretation",
+      "Analytical interpretation",
+      "Process interpretation",
+      "Object interpretation"
+    ],
+    "not_allowed": [
+      "Assuming a single universal interpretation."
+    ]
+  },
+  "pings": {
+    "Assist Me": {
+      "base_meaning": "Need help, convergence, support, focus."
+    },
+    "Caution": {
+      "base_meaning": "Risk, warning, danger."
+    },
+    "On My Way": {
+      "base_meaning": "Movement, transition, approach."
+    },
+    "Retreat": {
+      "base_meaning": "Withdrawal, reduction of commitment."
+    },
+    "All In": {
+      "base_meaning": "Maximum commitment."
+    },
+    "Hold": {
+      "base_meaning": "Pause, stabilization, waiting."
+    },
+    "Push": {
+      "base_meaning": "Pressure, advancement."
+    },
+    "Target": {
+      "base_meaning": "Priority focus."
+    },
+    "Enemy Vision": {
+      "base_meaning": "Known visibility, observed area, exposed information."
+    },
+    "Missing": {
+      "base_meaning": "Unknown factor, absence, uncertainty."
+    },
+    "Need Vision": {
+      "base_meaning": "Need for information."
+    },
+    "Generic Ping": {
+      "base_meaning": "Attention signal."
+    }
+  },
+  "ping_rules": {
+    "interpretative": true,
+    "contextual": true,
+    "subjective": true,
+    "contradictions_allowed": true,
+    "contradiction_explanation": "Apparently conflicting pings may coexist if their combination generates useful meaning.",
+    "examples": [
+      "All In + Retreat",
+      "Need Vision + Target",
+      "Push + Hold"
+    ]
+  },
+  "analysis_philosophy": {
+    "orientation": "Diagnostic",
+    "stance": "Observational",
+    "not_advocacy": true,
+    "not_attack": true,
+    "not_defense": true,
+    "goal": "Understand consequences rather than prove superiority."
+  },
+  "comparison_logic": {
+    "question": "When is this approach better or worse?",
+    "question_2": "What are the costs of this approach?",
+    "question_3": "What hidden assumptions does it create?",
+    "question_4": "What reactions does it provoke?",
+    "question_5": "What contexts favor or punish it?"
+  },
+  "template_philosophy": {
+    "mandatory_completion": true,
+    "empty_fields_allowed": false,
+    "acceptable_fillers": [
+      "Weak hypothesis",
+      "Provisional estimate",
+      "Most likely scenario",
+      "Placeholder analysis",
+      "Low confidence inference"
+    ],
+    "reason": "Comparison requires analytical material."
+  },
+  "meta_prompts": {
+    "allowed_between_elos": true,
+    "examples": [
+      "Focus more on emotional impact.",
+      "Compare clinical and AI contexts.",
+      "Analyze autonomy implications.",
+      "Evaluate trust effects."
+    ],
+    "restriction": "Meta-prompts may alter future analysis but should not transform the protocol into a serial dependency chain."
+  },
+  "example_use_case": {
+    "problem": "How should a psychiatrist or AI handle a highly tangential user?",
+    "possible_elos": [
+      "Limit word count",
+      "Ask closed questions",
+      "Interrupt and redirect",
+      "Summarize and confirm",
+      "Extract main topic",
+      "Force structured replies"
+    ],
+    "objective": "Compare consequences of each intervention."
+  },
+  "success_condition": {
+    "winner_required": false,
+    "objective": "Generate understanding.",
+    "ideal_outcome": "A map of contextual strengths, weaknesses, costs, benefits and trade-offs."
+  },
+  "summary": {
+    "one_sentence": "HEXAKILL is a parallel analytical protocol that compares multiple independent approaches to the same problem using an interpretative ping language inspired by League of Legends in order to reveal trade-offs, contextual strengths and hidden consequences."
+  }
+}

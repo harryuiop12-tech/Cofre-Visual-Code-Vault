@@ -1,0 +1,27 @@
+# Arquétipos `to RusH`
+
+---
+## *"Nome Formal"*
+> 	
++ Estrutura principal em dois nomes.
++ *Proibido* Repetir extamente o mesmo nome duas vezes, seja formal ou casual.
++ Final composto por dois pares curtos (`XX YY` ou similares).
++ Total exato: 12 caracteres principais sem considerar os pares finais nem o espaço.
++ O primeiro nome sempre começa com R (se for TOOL) ou H (se for USER).
++ O segundo nome sempre começa com H (se for TOOL) ou R (se for USER).
++ Tem preferência nomes incomuns e extravagantes que são oficialmente nomes de uma forma ou de outra.
++ Os dois pares de caracteres no finais são lúdicos e não odecem a regras específicas.
++ Necessário manter uma sequencia na ordem da quantidade de caracteres:
+>>
+| Número de caracteres | "!7" | "@2" | "&3" | "&4" | "&5" | "&6" |
+| --- | --- | --- | --- | --- | --- | --- |
+| Primero nome | 06 | 05 | 04 | 03 | 02 | 01 | 
+| Segundo nome | 06 | 07 | 08 | 09 |10 | 11 |
+>
+>
+```
+| Lembrando que esse número de caracteres na tabela exclui os dois pares dop final e inclúi o "R" e "H" inicial
+```
+
+---
+###	Nome Formal		Harry Raphael K_ M_		R????? H????? XX YY		Rufus H?????? V_ 01		Repo H??????? XX YY		Rao H???????? XX YY		R? Hargreaves H????????? XX YY		R H?????????? XX YY

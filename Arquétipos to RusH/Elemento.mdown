@@ -1,0 +1,21 @@
+# Arquétipos `to RusH`
+
+---
+## *"Elemento"*
+
+
+#### A Lógica aqui é que cada Arquétipo tem domínio figuratiuvamente sobre um elemento, e ele é representado por uma runa daquelas com triângulo e opcionalmente um traço. as 4 runas princiapis que são 2 tringulos apontados para cima, um cortado horixzontalmente e outro não, e dois para baixo também um cortado e outro não, são os 4 "&x", e é o elemento que representa, os outros 3 são:
+
+| "@1" | "!7" | %2" |
+| --- | --- | --- |
+| energia | espaço | tempo |
+| Triangulo com ponta apontando para cima e um risco vertical no centro | Triangulo com ponta apontando para cima um risco horizontal no topo | Triangulo com ponta apontando para baixo e um risco horizontal na base| 
+
+---
+Riscos verticais indicam "USER"
+
+---
+Conforme os arquétipos forem sendo construidos nós decidiremos seus elementos. 
+
+---
+é preciso desenhar aqui e colocar junto o nome do elemento
