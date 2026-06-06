@@ -1,0 +1,29 @@
+# ============================================================
+# .gitignore — Cofre Visual Code Vault
+# Criado para evitar versionar conteúdo sensível e ruído.
+# Revise antes de commitar: o que NÃO estiver aqui será incluído.
+# ============================================================
+
+# --- SENSÍVEL / CONFIDENCIAL (não enviar ao GitHub) ---
+/Segunça Confidencial/
+
+# --- Obsidian (estado de app / workspace / plugins) ---
+.obsidian/
+.trash/
+
+# --- Ruído de sistema operacional ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+*.tmp
+*~
+*.bak
+
+# --- Segredos comuns (por segurança, caso surjam) ---
+.env
+.env.*
+*.key
+*.pem
+secrets.*
