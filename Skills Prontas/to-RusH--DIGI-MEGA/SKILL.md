@@ -1,19 +1,19 @@
 ---
-name: mega-shinka
+name: to-RusH--DIGI-MEGA
 description: >-
   Protocolo Mega Shinka (evolução estilo Digimon) para refinar UM material —
   vídeo, áudio, texto ou ideia crua — através de VÁRIOS PROMPTS em sequência,
   fazendo-o evoluir por 7 estágios travados (Digitama → Fresh → In-Training →
   Rookie → Champion → Ultimate → Mega) que ACUMULAM tudo e só avançam com
   autorização explícita, terminando numa entrega final consolidada. USE SEMPRE
-  que o usuário falar em "Mega Shinka", "evoluir/aprimorar um material por
+  que o usuário falar em "to-RusH--DIGI-MEGA", "Mega Shinka", "evoluir/aprimorar um material por
   etapas", "estágios", "Digitama", "decupagem", "assimilar vários prompts", ou
   anunciar que vai "iniciar a skill" e mandar um material para lapidar em
   rodadas. Acione mesmo sem o nome exato sempre que a intenção for refinar o
   MESMO material em ciclos travados e acumulativos até uma entrega final.
 ---
 
-# 🌌 Mega Shinka — Evolução de Material por Estágios
+# 🌌 to-RusH--DIGI-MEGA — Evolução de Material por Estágios (tema Mega Shinka)
 
 ## O que é (e por que existe)
 
