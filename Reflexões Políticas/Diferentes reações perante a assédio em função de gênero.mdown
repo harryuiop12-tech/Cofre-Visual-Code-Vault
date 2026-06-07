@@ -1,0 +1,8 @@
+# Reações de Diferentes Visões Políticas ao Assédio em Função de Gênero
+
+| A→Agredindoo→B   | Conservador → Vítima | Conservador → Assediador | Liberal → Vítima               | Liberal → Assediador |
+|------------------|----------------------|--------------------------|--------------------------------|----------------------|
+| Mulher → Mulher  |                      |                          | não vou com a cara / histérica | Loba                 |
+| Mulher → Homem   |                      |                          |                                |                      |
+| Homem → Mulher   |                      |                          |                                |                      |
+| Homem → Homem    |                      |                          |                                |                      |

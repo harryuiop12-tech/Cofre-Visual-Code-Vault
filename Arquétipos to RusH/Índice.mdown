@@ -1,0 +1,26 @@
+# Arquétipos `to RusH`
+
+---
+## *"Índice"*
+> 	
+```
+#### Índice
+Um índice representa algo por conexão física, causal ou factual.
+Ele aponta para a existência de outra coisa.
+#### Exemplos:
++ Fumaça indicando fogo
++ Pegadas indicando que alguém passou ali
++ Febre indicando doença
++ Um ponteiro de bússola indicando direção
++ Impressões digitais indicando a presença de uma pessoa
+
+A lógica é:
+
+"Está ligado ao objeto por causa e efeito ou contato real."
+```
+
+---
+Conforme os arquétipos forem sendo construidos nós decidirem seus índices. 
+
+---
+### índice		---

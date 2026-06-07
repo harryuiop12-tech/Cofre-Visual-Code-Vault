@@ -1,0 +1,11 @@
+Reforço: Otimização de dados já existentes.
+
+Emissão: Projeção além do limite interno (acesso à Web).
+
+Transformação: Conversão de propriedades nativas de um arquivo ou texto.
+
+Materialização: Geração de arquiteturas do zero (Tabelas, Código).
+
+Manipulação: Restrição e controle de fluxo via regras estruturais.
+
+Especialização: Inferência profunda, abstração metafísica e autoconsciência da própria limitação analítica.

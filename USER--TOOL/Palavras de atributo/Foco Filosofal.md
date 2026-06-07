@@ -1,0 +1,1 @@
+Comprovar Empirista Proteger Segurança Revelar Transparência Diversificar Pluralidade Embelezar Estética Questionar Maiêutica Formatar Forma Preencher Conteúdo Praticar Pragmático Julgar Moralista Refletir Existêncialista Utilizar Utilitário Fundamentar Princípios Mirar Objetivos Processar Processo Resultar Resultados Sistematizar Métodos Finalizar Finalidade 

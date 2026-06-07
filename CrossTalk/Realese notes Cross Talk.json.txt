@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Release Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .header img {
+            height: 40px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .version-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #007BFF;
+            margin-top: 20px;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <a href="./">
+        <img src="images/app_icon_rounded.png" alt="Logo">
+    </a>
+    <h1>Release Notes</h1>
+</div>
+
+<div class="container">
+    <p class="version-title">Version 0.5.5 (12 Jul 2025) Release Notes:</p>
+    <ul>
+        <li>Model updates</li>
+        <li>SDK updates</li>
+    </ul>
+
+    <p class="version-title">Version 0.3.4 (4 Sep 2024) Release Notes:</p>
+    <ul>
+        <li>Cross device sync</li>
+    </ul>
+
+    <p class="version-title">Version 0.3.3 (21 Aug 2024) Release Notes:</p>
+    <ul>
+        <li>Conversation search</li>
+        <li>Memory tool</li>
+        <li>Support OpenRouter models list/import</li>
+        <li>Support multiple conversation starters and expressions</li>
+        <li>Minor cosmetic and bug fixes</li>
+    </ul>
+
+    <p class="version-title">Version 0.3.1 (16 Aug 2024) Release Notes:</p>
+    <ul>
+        <li>Ollama multi-modal (image) support and some example configurations</li>
+        <li>Bugfix for new bug in provider configuration</li>
+    </ul>
+
+    <p class="version-title">Version 0.3.0 (15 Aug 2024) Release Notes:</p>
+    <ul>
+        <li>CharacterHub browser/loader (except not in Play Store version)</li>
+        <li>Background and concurrent LLM requests</li>
+        <li>Various minor changes, cosmetic tweaks and bug fixes</li>
+    </ul>
+
+    <p class="version-title">Version 0.2.9 (29 July 2024) Release Notes:</p>
+    <ul>
+        <li>Added new model defaults including Llama-3.1-405B</li>
+        <li>Support for multiple bots in a single conversation</li>
+        <li>Workaround for strict alternation providers</li>
+        <li>Bot personality override</li>
+        <li>HTML export</li>
+        <li>Improving Ollama support</li>
+        <li>Selective conversation restore</li>
+        <li>Minor cosmetic changes and bug fixes</li>
+    </ul>
+
+    <p class="version-title">Version 0.2.8 (22 July 2024) Release Notes:</p>
+    <ul>
+        <li>Additional tool support (Gemini, external tools, images, size warnings)</li>
+        <li>Fix attachment bug</li>
+    </ul>
+
+    <p class="version-title">Version 0.2.7 (15 July 2024) Release Notes:</p>
+    <ul>
+        <li>Preliminary tool support</li>
+    </ul>
+
+    <p class="version-title">Version 0.2.5 (7 July 2024) Release Notes:</p>
+    <ul>
+        <li>In-app purchases, and direct support for commercial bots paid in Play Store</li>
+        <li>Preconfigure some example bots</li>
+        <li>Prompt user for a name at install time</li>
+        <li>Localize and improve character prompting with narration styles</li>
+        <li>Support for Google Cloud TTS</li>
+        <li>Bug fixes</li>
+        <li>Logging</li>
+    </ul>
+
+    <p class="version-title">Version 0.2.0 (22 June 2024) Release Notes:</p>
+    <ul>
+        <li>Support for Anthropic multi-modal (Claude 3.5 Sonnet etc.)</li>
+        <li>Allow attaching new files to existing messages</li>
+        <li>Minor bug fixes and cosmetic changes</li>
+    </ul>
+
+    <a href="./">[Back]</a>
+</div>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon='{"version":"2024.11.0","token":"d09d73a21ae6472ab83eac10b4bfcabc","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>

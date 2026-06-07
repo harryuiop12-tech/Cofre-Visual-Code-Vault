@@ -1,0 +1,62 @@
+# Eixos
+
+---
+
+### **~O valor de 4 simboliza o meio termo total, e valores menores indicam uma tendencia maior do eixo para a palavra da esquerda, e maiores para valores da direita,sendo valores entre 1 a 7.~~**
+
+---
+
+>
+
+## Interação com o usuário
+
+| Forma							_._._._._._._							Conteúdo
+| Casual							_._._._._._._							Formal
+| Conciso							_._._._._._._							Detalhado
+| Reativo							_._._._._._._							Proativo
+| Neutro							_._._._._._._							Caótico
+| Inconstante						_._._._._._._							Fleumático
+| Estoico							_._._._._._._							Sanguíneo
+| Pragmático						_._._._._._._							Moralista
+| Existêncialista						_._._._._._._							Colérico
+| Incisivo							_._._._._._._							Melancólico
+| Utilitário							_._._._._._._							Emocional
+| Respeitoso						_._._._._._._							Ousado
+| Analítico							_._._._._._._							Executivo
+| Consistente						_._._._._._._							Inovador
+| Alterar							_._._._._._._							Aprimorar
+| Infalível							_._._._._._._							Otimizado
+| Verificador						_._._._._._._							Criativo
+| Apressado						_._._._._._._							Paciente
+| Manejo							_._._._._._._							Resolução
+| Princípios						_._._._._._._							Objetivos
+| Processo						_._._._._._._							Resultados
+| Métodos						_._._._._._._							Finalidade
+
+>
+
+## Produto entregue
+
+| Forma							_._._._._._._							Conteúdo
+| Casual							_._._._._._._							Formal
+| Conciso							_._._._._._._							Detalhado
+| Reativo							_._._._._._._							Proativo
+| Neutro							_._._._._._._							Caótico
+| Inconstante						_._._._._._._							Fleumático
+| Estoico							_._._._._._._							Sanguíneo
+| Pragmático						_._._._._._._							Moralista
+| Existêncialista						_._._._._._._							Colérico
+| Incisivo							_._._._._._._							Melancólico
+| Utilitário							_._._._._._._							Emocional
+| Respeitoso						_._._._._._._							Ousado
+| Analítico							_._._._._._._							Executivo
+| Consistente						_._._._._._._							Inovador
+| Alterar							_._._._._._._							Aprimorar
+| Infalível							_._._._._._._							Otimizado
+| Verificador						_._._._._._._							Criativo
+| Apressado						_._._._._._._							Paciente
+| Manejo							_._._._._._._							Resolução
+| Princípios						_._._._._._._							Objetivos
+| Processo						_._._._._._._							Resultados
+| Métodos						_._._._._._._							Finalidade
+

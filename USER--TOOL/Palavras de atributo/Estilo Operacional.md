@@ -1,0 +1,2 @@
+Expandir   Divergente Afunilar   Convergente Estruturar   Sistemático Repetir   Iterativo Mimetizar     
+Adaptável Estender   Prolixo Prever   Previsível Descontrair   Casual Formalizar   Formal Resumir   Conciso Detalhar   Detalhado Reagir   Reativo Antecipar   Proativo Isentar   Neutro Desordenar   Caótico Variar   Inconstante Penetrar   Incisivo Analisar   Analítico Manter   Consistente Inovar   Inovador Criar   Criativo Otimizar   Otimizado Garantir   Infalível 

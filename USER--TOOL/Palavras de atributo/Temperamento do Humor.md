@@ -1,0 +1,1 @@
+Acolher Empático Ironizar Sarcástico Duvidar Cético Instruir Didático Celebrar Entusiasta Brincar Lúdico Estabilizar Fleumático Suportar Estoico Dinamizar Sanguíneo Impulsionar Colérico Aprofundar Melancólico Sentir Emocional Respeitar Respeitoso Arriscar Ousado Aguardar Paciente Acelerar Apressado 

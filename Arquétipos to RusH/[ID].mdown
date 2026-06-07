@@ -1,0 +1,15 @@
+# Arquétipos `to RusH`
+
+---
+## *">ID<"*
+> 	
+1. São dois caracteres
+2. O primeiro caractere diz sobre o papel no sistema
+3. O Segundo caractere diz sobre a ordem que foi criada
+>> 	
+####	+	-	"[@]" é Meta, significa que é User, mais especificamente o User principal, e, atualmente, o único.  		
+####	+	-	"[!]" é Negação, significa que é um arquétipo da Tool a parte, que não é como os outros normais.  		
+####	+	-	"[%]" é Contexto, significa que é um arquépico central e nuclear que organiza todos os outros.  		
+####	+	-	"[&]" é Adição, significa que é um arquétipo Tool normal que veio para contribuir, é o nodo final.  		
+
+###	">ID<"	“@1”	“!7”		“%2”	"&3”	"&4”	"&5”	"&6”

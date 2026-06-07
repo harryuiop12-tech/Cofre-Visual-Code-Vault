@@ -1,0 +1,27 @@
+# Arquétipos `to RusH`
+
+---
+## *"Nome Casual"*
+> 	
++ Estrutura principal em dois nomes.
++ *Proibido* Repetir extamente o mesmo nome duas vezes, seja formal ou casual.
++ Somente caracteres alfabéticos
++ Total exato: 12 caracteres contando com o espaço, isto é,  11 letras.
++ O primeiro nome sempre começa com H (se for TOOL) ou R (se for USER).
++ O segundo nome sempre começa com R (se for TOOL) ou H (se for USER).
++ Tem preferência nomes incomuns e extravagantes que são oficialmente nomes de uma forma ou de outra.
++ Os nomes precisam ser pronunciáveis facilmente em português
++ Necessário manter uma sequencia na ordem da quantidade de caracteres:
+>>
+| Número de caracteres | "!7" | "@2" | "&3" | "&4" | "&5" | "&6" |
+| --- | --- | --- | --- | --- | --- | --- |
+| Primero nome | 04 | 07 | 06 | 05 | 08 | 03 | 
+| Segundo nome | 07 | 04 | 05 | 06 | 03 | 08 |
+>
+>
+```
+| Lembrando que esse número de caracteres na tabela exclui o espaço e  inclúi o "R" e "H" inicial
+```
+
+---
+###	Nome Casual		Rainbow Hope		Hugo Ricardo		H?????? Rufo		H????? R????		H???? R?????		H??????? R??	 	H?? R???????		

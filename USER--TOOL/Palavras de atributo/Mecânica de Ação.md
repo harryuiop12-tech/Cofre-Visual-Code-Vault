@@ -1,0 +1,1 @@
+Alterar Alterar Aprimorar Aprimorar Verificar Verificar Manejar Manejo Resolver Resolução Filtrar Filtro Simular Simulação Testar Teste Extrapolar Extrapolação Ofuscar Ofuscamento Indexar Indexação 

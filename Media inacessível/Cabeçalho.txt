@@ -1,0 +1,19 @@
+Sou Rainboow Hope =D
+	-Aqui está listado diferentes motivos pelos quais dados se caracterizam como inacessíveis.
+	-A classificação está em desenvolvimento e incompleta.
+	-Ficoa Grato por críticas e sugestões.
+
+Conhecer a estrutura de algo não implica ter tido acesso
+	-Aqui "acessar" se diz respeito a funcionalidades e uso prático
+	-Saber de propriedades descritivas como nome, tamanho ou localização não Caracteriza nada como acessado. 
+	-Assuma o uso esperado, ter posse ou até mesmo conseguir abrir algo mas não conseguir usar de nada adianta.
+
+A que este algorítmo se aplica
+	-Aqui me refiro a qualquer informação eletrônica sistematizada como "TREM", em caixa alta letra maiúscula sem aspas.
+	-"TREM" não é necessarimente um arquivo, mas sim qualque=r existencia dependente de algum meio digital.
+	-Exemplos: Pastas de arquivo, Jogos, Programas, Aplicativos de celular, Scripts de configuração, tabelas, etc.
+
+Disclaiemers:
+	-Há pelo menos outras 3 categoriais ainda pensadas que não são mencioandas aqui, vamos com calma.
+	-A ordem das categorias será alterada para apresentar algum tipo de lógica linear, de estar em uma categoria que vier depois implique q necessariamente o arquivo não está em categorias superiores da lista.
+	-Será realizado um algórito/fluxograma, isso [e apenas um esboço para organizar ideias. 

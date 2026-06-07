@@ -1,0 +1,41 @@
+#	Gastos Junho
+
+---
+##	Instruções:
+
+>		
+
+1.			`Se atrasado, paga agora.`
+2.			`Saldo inicial é 100 reais.`
+3.			`Os valores estão em reais`
+4. 			`Os valores são arredondados`
+5. 			`Alguns dias são aproximados`
+6.          `Tenho como vender Gift Card`
+7.          `Essa semana recebo 500 reais``
+
+---
+
+>
+
+| *Nome* | Atrasado | Categoria | Dia | $Preço$ | Prioridade |
+| ------ | -------- | --------- | --- | ------- | ---------- |
+| DriveG | ........ | Armazenar | #25 | R$50,00 | A- Urgente |
+| VeekX1 | XXXXXXXX | Comunicar | #10 | R$30,00 | S- Agora!! |
+| FileRv | ........ | Armazenar | ... | R$99,00 | D- Fútil.. |
+| VeekX2 | XXXXXXXX | Comunicar | #15 | R$30,00 | B- Importt |
+| Youtub | ........ | Entretern | #18 | ?16,80? | B- Importt |
+| TrueCl | ........ | Comunicar | #30 | R$09,00 | C- Utilidd |
+| Capcut | ........ | CriarVído | ... | ??????? | E- Extra.. |
+| Patren | ........ | Entretern | ... | R$20,00 | D- Fútil.. |
+| Claude | ........ | IntArtifc | #17 | R$90,00 | A- Urgente |
+| GogWrk | ........ | IntArtifc | #10 | R$40,00 | B- Importt |
+| chtGPT | ........ | IntArtifc | ... | R$40,00 | C- Utilidd |
+| Amazon | ........ | Tecnology | ... | ??????? | B- Importt |
+| PcPay+ | ........ | Tecnology | #11 | R$20,00 | A- Urgente |
+| Prplxt | ........ | IntArtifc | ... | R$60,00 | E- Extra.. |
+| AIxprt | ........ | IntArtifc | ... | R$25,00 | D- Fútil.. |
+| Notion | ........ | IntArtifc | ... | R$75,00 | E- Extra.. |
+| Klubi. | XXXXXXXX | Tecnology | #11 | R$60,00 | S- Agora!! |
+| VivoPx | ........ | Comunicar | #17 | PaisPgm | A- Urgente |
+| TaskB2 | ........ | Organizar | ... | R$15,00 | D- Fútil.. |
+| SyncCD | ........ | Armazenar | #10 | Rs60,00 | C- Utilidd |
