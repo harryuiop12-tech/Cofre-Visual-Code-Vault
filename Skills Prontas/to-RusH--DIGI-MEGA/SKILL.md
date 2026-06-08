@@ -30,6 +30,9 @@ faz **uma** transformação bem-feita e passa o bastão adiante. A metáfora Dig
 não é enfeite — ela dá a cada etapa uma "forma" com propósito claro e torna o
 progresso legível para o usuário.
 
+> 📖 **Guia do usuário:** para exemplos exaustivos, referência de todos os
+> comandos e todos os caminhos possíveis, veja `references/manual-de-uso.md`.
+
 ## A regra-mãe (leia isto antes de tudo)
 
 > **Você NUNCA avança de estágio por conta própria.** Cada estágio termina
